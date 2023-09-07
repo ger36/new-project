@@ -1,0 +1,92 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+.logo {
+    height: 15vh;
+    width: 15vh;
+    background-image: url(GPLog.jpg);
+    background-size: contain;
+}
+.top {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #ED0D92;
+    height: 15vh;
+}
+
+#navcenter {
+    list-style: none;
+    display: flex;
+    gap: 2rem;
+    font-size: 2.5rem;
+
+}
+#navcenter li a {
+    text-decoration: none;
+    color: #F2F1F2;
+}
+#navcenter li a:hover {
+    color: #F5A3C8;
+}
+.main-content {
+    display: flex;
+    justify-content: center;
+    margin: 1rem;
+    font-size: 4rem;
+    color: #ED0D92;
+    height: 8vh;
+}
+#first-page {
+    display: flex;
+    gap: 4rem;
+    height: 77vh;
+}
+.first-page-content {
+    text-align: center;
+/*Todo: align vertical-align: to center;*/
+    height: 100%;
+    width: 100%;
+    margin: 4rem;
+}
+h2 {
+    font-size: 3rem;
+}
+.first-page-content p {
+    font-size: 1.5rem;
+}
+.first-page-picture {
+    height: 100%;
+    width: 100%;
+    background-image: url(lookup.jpg);
+    background-size: contain;
+    margin: 0 4rem;
+}
+/*second page*/
+#second-page {
+    display: flex;
+    gap: 4rem;
+    height: 70vh;
+}
+.second-page-content {
+    text-align: center;
+/*Todo: align vertical-align: to center;*/
+    height: 100%;
+    width: 100%;
+    margin: 4rem;
+}
+.second-page-content h2 {
+    font-size: 3rem;
+}
+.second-page-content p {
+    font-size: 1.5rem;
+}
+.second-page-pic {
+    height: 100%;
+    width: 100%;
+    background-image: url(panda.jpg);
+    background-size: contain;
+    margin: 4rem;
+}
